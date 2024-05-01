@@ -33,57 +33,57 @@
 
 登录注册展示：
 
-![登录](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/login.png)
+![登录](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/login.png)
 
-![注册](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/register.png)
+![注册](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/register.png)
 
 兼职首页与详情页：
 
-![首页](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/index.png)
+![首页](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/index.png)
 
-![详情页](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/detail.png)
+![详情页](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/detail.png)
 
 主要功能页面：
 
-![主要功能页面1](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/img1.png)
+![主要功能页面1](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/img1.png)
 
-![主要功能页面2](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/img2.png)
+![主要功能页面2](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/img2.png)
 
-![主要功能页面3](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/img3.png)
+![主要功能页面3](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/img3.png)
 
-![主要功能页面4](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/img4.png)
+![主要功能页面4](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/img4.png)
 
-![主要功能页面5](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/img5.png)
+![主要功能页面5](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/img5.png)
 
-![主要功能页面6](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/img6.png)
+![主要功能页面6](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/img6.png)
 
-![主要功能页面7](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/img7.png)
+![主要功能页面7](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/img7.png)
 
-![主要功能页面8](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/img8.png)
+![主要功能页面8](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/img8.png)
 
 公告展示页：
 
-![公告展示页](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/ggao.png)
+![公告展示页](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/ggao.png)
 
 后台展示：
 
-![后台页面1](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/admin1.png)
+![后台页面1](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/admin1.png)
 
-![后台页面2](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/admin2.png)
+![后台页面2](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/admin2.png)
 
-![后台页面3](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/admin3.png)
+![后台页面3](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/admin3.png)
 
-![后台页面4](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/admin4.png)
+![后台页面4](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/admin4.png)
 
-![后台页面5](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/admin5.png)
+![后台页面5](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/admin5.png)
 
-![后台页面6](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/admin6.png)
+![后台页面6](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/admin6.png)
 
-![后台页面7](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/admin7.png)
+![后台页面7](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/admin7.png)
 
 论文目录：
 
-![论文目录](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/master/jobImg/lunwen.png)
+![论文目录](https://raw.githubusercontent.com/ShiDuoBeiLi/part_time_job_system/blob/master/jobImg/lunwen.png)
 
 ## 一些说明
 
