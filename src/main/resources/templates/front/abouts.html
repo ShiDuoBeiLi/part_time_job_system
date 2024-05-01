@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>大学生兼职平台-首页</title>
+    <!-- Bootstrap -->
+    <link href="./css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+
+    <script type="text/javascript" src="./js/respond.min.js" th:src="@{/js/respond.min.js}"></script>
+    <script type="text/javascript" src="./js/html5.min.js" th:src="@{/js/html5.min.js}"></script>
+    <!-- 引入全局配置 -->
+    <link rel="stylesheet" type="text/css" href="./css/oneself/start.css" th:href="@{/css/oneself/start.css}">
+    <!-- 导航条 -->
+    <link rel="stylesheet" href="./css/oneself/navigationbar.css" th:href="@{/css/oneself/navigationbar.css}">
+    <!-- 弹出框 -->
+    <link rel="stylesheet" href="./js/dialog/css/zdialog.css" th:href="@{/js/dialog/css/zdialog.css}">
+    <!-- index.css -->
+    <link rel="stylesheet" href="./css/oneself/abouts.css" th:href="@{/css/oneself/abouts.css}">
+    <!-- 媒体查询css -->
+    <link rel="stylesheet" href="./css/oneself/media.css" th:href="@{/css/oneself/media.css}">
+    <link rel="stylesheet" href="/layui/lib/layui-v2.5.5/css/layui.css" media="all">
+</head>
+<body>
+<!-- 头部 -->
+<div class="t_bj">
+    <div class="container heard_div ">
+        <span>为大学生提供优质兼职服务平台！</span>
+        <span style="float:right;position: relative;" class="v-father">
+            <div id="login" th:if="${session.frontuser}==null">
+                    <span class="man" style="color:#F3A006"><i class="glyphicon glyphicon-user"></i></span>
+                    <a style="color:#ccc" class="y-deng"></a>
+                    <a href="/login" style="color:#ccc" class="v-deng">登录</a>
+                    <a href="/register" class="v-deng" style="display: inline-block;height:40px;width: 80px;text-align: center;color: #fff;background-color: #F3A006;margin-left: 20px;">立即注册</a>
+            </div>
+            <div id="personal" th:if="${session.frontuser}!=null">
+                <ul class="layui-nav" style="background-color: #191518 !important; font-size: 20px !important;">
+                <li class="layui-nav-item layuimini-setting">
+                <a href="javascript:;">[[${session.frontuser.name}]]</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="/dashboard/personal">个人中心</a></dd>
+                        <dd><a href="/logout">退出登入</a></dd>
+                    </dl>
+                </li>
+                </ul>
+            </div>
+
+        </span>
+    </div>
+</div>
+<!-- 导航条 -->
+<nav class="navbar navbar-default head">
+    <div class="container" style="height:100%">
+
+        <div class="navbar-header heights">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="margin-top:15px">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" th:href="@{/}" style="margin-top:-15px;">
+                <img alt="Brand" src="./images/logo1.png" th:src="@{/images/logo1.png}">
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav" style="margin-right:0;">
+                <li><a href="/" class="active-head" style="color:#000!important;">首页 <span
+                        class="sr-only">(current)</span></a></li>
+                <li><a href="#" th:href="@{/ptjob(place='all',type='all')}">兼职</a></li>
+                <li><a href="#" th:href="@{/news}">平台公告</a></li>
+                <li><a href="#" th:href="@{/abouts}" class="active-head">关于我们</a></li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<img src="/images/about.jpg" th:src="@{/images/about.jpg}" class="img-responsive" alt="Responsive image">
+<div>
+    <div class="container ab_nav">
+        <div><p class="first">平台简介</p></div>
+        <div><p>联系我们</p></div>
+        <div><p>帮助中心</p></div>
+    </div>
+    <div class="container ab_content">
+        <div class="divxian">
+            <p style="line-height: 40px;  font-size: 16px;font-family: Microsoft Yahei;color: #4b4b4b;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大学生兼职已经成为当代大学校园里的一种普遍现象，并成为了大学生生活的有机组成部分，是一种不可忽视的现象。所以一个可靠的兼职平台对于应聘者和招聘者是极其重要的，一个好的兼职平台不仅能够帮助供需双方进行更好的信息交流还能帮助应聘者避免虚假兼职做到省时省力。
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;兼职招聘服务项目繁多，需要管理的信息量自然也很多，想要提高双方效率减少不必要的程序，降低经营成本以及招聘成本，提高服务质量和管理水平让应聘者省时省力找到所需兼职，促进经济效益，就要借助互联网。</p>
+        </div>
+        <div class="lianxis">
+
+            <div class="lianxis_contents">
+                <h1>联系我们</h1>
+                <h2 class="com_name">大学校园兼职在线平台</h2>
+                <p>地址： 广东省东莞市石排镇福隆村文荟路1号 广东科技学院松山湖校区</p>
+                <p>邮编： 523000</p>
+                <p>电话： 13711111111</p>
+            </div>
+            <img src="/images/map.png" alt="" width="100%">
+        </div>
+        <div class="wenda">
+            <dl class="mod-body-box faq-con">
+                <dt>Q：在平台上找兼职是否收费？</dt>
+                <dd>A：以任何名义收取费用都是骗子，不要参加此类兼职工作。</dd>
+                <dt>Q：个人基本信息在哪修改？</dt>
+                <dd>A：登录之后进入“个人中心”点击修改基本信息。</dd>
+                <dt>Q：兼职报名之后商家会联系你吗？</dt>
+                <dd>A：在报名工作职位后，商家会在报名该职位的所有申请者的简历进行筛选，选定后会第一时间联系确定工作或面试时间，也可以选择主动联系商家。</dd>
+                <dt>Q：平台的兼职招聘信息可靠吗？</dt>
+                <dd>A：大学生兼职平台上发布的兼职岗位都是经过审核后才上线的；对于可能出现的收费职位，请仔细甄别，如有额外收费情况，请及时向客服举报。</dd>
+                <dt>Q：用户在平台报名，手机号会泄露吗？</dt>
+                <dd>A：平台会保护用户隐私，遵从用户意愿，不会将任何信息透露给别人</dd>
+                <dt>Q：想要报名，怎么操作？</dt>
+                <dd>A：在兼职页面或职位列表页中选出心仪的职位，进入到详情页中，点击下方的“投递职位”。</dd>
+                <dt>Q：想要查看自己已经报名的职位信息，在哪里查看？</dt>
+                <dd>A：在“个人中心”里可以在已投递的职位中找到自己已经报名过的职位。</dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+<!-- 底部-->
+<div class="dibu">
+    <div class="container pad">
+        <div class="dibu_div">
+            <div class="dibu_left">
+                <a href="/abouts" class="col-md-2 col-sm-3 col-xs-4">关于我们</a>
+                <a href="/abouts" class="col-md-2 col-sm-3 col-xs-4">联系我们</a>
+                <a href="/abouts" class="col-md-2 col-sm-3 col-xs-4">帮助中心</a>
+                <a href="/admin/login" class="col-md-2 col-sm-3 col-xs-4"><span>后台</span>管理</a>
+                <span class="col-xs-12">Copyright©2023 大学校园兼职平台 版权所有 </span>
+            </div>
+            <div class="dibu_right">
+                <img style="width: 150px" src="./images/wechat1.png" alt="" th:src="@{/images/wechat1.png}">
+                <span class="hidden-xs">扫一扫<span class="hidden-sm hidden-md">联系客服</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./../js/jquery-1.12.2.js"></script>
+
+<script src="./../js/bootstrap.min.js"></script>
+<script src="/layui/lib/layui-v2.5.5/layui.js" charset="utf-8"></script>
+<script>
+    layui.use('element', function () {
+        var element = layui.element;
+    });
+</script>
+<script type="text/javascript">
+    $(function () {
+        $('.ab_nav div').on('click', 'p', function (e) {
+            $(this).css({
+                color: "#F3A006",
+                borderBottom: "2px solid #F3A006"
+            }).parent().siblings().find('p').css({
+                color: "#333",
+                borderBottom: " 0px solid #F3A006"
+            })
+            var ind = $(this).parent().index()
+            console.log(ind)
+            $(".ab_content>div").eq(ind).show().siblings().hide()
+        })
+    })
+</script>
+</body>
+</html>
